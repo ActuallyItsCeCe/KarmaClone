@@ -46,6 +46,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* To be deleted!!! */
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -54,8 +62,26 @@ table {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: padding-box;
 }
 .logo {
     margin-top: 16px;
-    margin-left: 17px;
+}
+.top-navigation .links {
+    float: right;
+    margin-top: 25px;
+}
+.top-navigation .links li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    color: #838994; 
+    letter-spacing: 0.03em;
+    margin-right: 15px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
 }
