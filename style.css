@@ -64,6 +64,9 @@ div {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .top-navigation > .content {
     width: 970px;
@@ -139,3 +142,31 @@ div {
     background-color: #d9400e;
     cursor: pointer;
 }
+.cases {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: #1d1e21;
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.cases .devices li {
+    width: 32%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+.cases .devices img {
+    width: 127px;
+    height: 127px;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
