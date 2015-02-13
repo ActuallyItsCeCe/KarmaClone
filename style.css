@@ -94,7 +94,7 @@ table {
     color: #333333;
 }
 .introduction {
-    background-image: url('../images/first-background%20copy.jpg');
+    background-image: url('/images/first-background%20copy.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
