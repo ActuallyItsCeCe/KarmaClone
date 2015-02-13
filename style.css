@@ -53,13 +53,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* To be deleted!!! */
-body {
-    background-color: LightGray;
-}
-div {
-    border: 1px solid Chocolate;
-}
 
 /* Navigation Section */
 .top-navigation {
@@ -67,6 +60,7 @@ div {
     position: fixed;
     width: 100%;
     z-index: 9999;
+    top: 0;
 }
 .top-navigation > .content {
     width: 970px;
@@ -111,7 +105,8 @@ div {
     color: white;
     font-family: 'Roboto', sans-serif;
     margin:0 auto; 
-    width: 970px
+    width: 970px;
+    padding-top: 100px;
 }
 .introduction h1,
 .introduction h3 {
@@ -157,8 +152,6 @@ div {
 .cases .devices li {
     width: 32%;
     display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
 }
@@ -170,4 +163,13 @@ div {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
+}
+.social > .content{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icons li {
+    display: inline;
+    padding-left: 25px;
 }
